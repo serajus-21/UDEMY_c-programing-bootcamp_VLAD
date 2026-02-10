@@ -1,0 +1,130 @@
+🔹 Exercise 1 (Centralized Constant + String Macro)
+
+Write a program that displays a welcome message and a version number of an application.
+
+Use a string macro for the application name.
+
+Use a numeric constant macro for the version number.
+
+Print them in the format:
+AppName vX.Y started successfully.
+
+
+
+🔹 Exercise 2 (Numeric Constant + Expression Macro)
+
+Write a program that calculates the area and circumference of a circle.
+
+Define a numeric macro for π.
+
+Define expression macros for:
+
+area of a circle
+
+circumference of a circle
+
+Read the radius from user input.
+
+Display both results.
+
+
+
+🔹 Exercise 3 (Expression Macro Discipline)
+
+Write a program that reads length and width of a rectangle and prints its area.
+
+Define an expression macro for rectangle area.
+
+Prove that your macro works correctly when the arguments are expressions, not just variables (e.g., length+1).
+
+
+
+🔹 Exercise 4 (Keyword Macro)
+
+Write a program that performs division of two numbers with decimal precision.
+
+Use a keyword macro to alias a floating-point type.
+
+Read two values from the user.
+
+Display the result with exactly two digits after the decimal point.
+
+
+
+🔹 Exercise 5 (Single-Argument Macro)
+
+Write a program that reads an integer and prints its square and cube.
+
+Define single-argument macros for square and cube.
+
+Ensure your macros behave correctly when the argument is an expression.
+
+
+
+🔹 Exercise 6 (Multiple-Argument Macro)
+
+Write a program that calculates the average of three numbers.
+
+Define a macro that takes three arguments and returns their average.
+
+Read three integers from the user.
+
+Display the result as a floating-point value.
+
+
+
+🔹 Exercise 7 (Unconditional Statement Macro)
+
+Write a program that maintains two counters: success and failure.
+
+Define a statement macro that resets both counters to zero.
+
+Simulate incrementing the counters.
+
+Call the macro and show that both values are reset.
+
+
+
+🔹 Exercise 8 (Conditional / Safe Statement Macro)
+
+Write a program that conditionally resets two variables.
+
+Define a safe do { } while (0) statement macro that resets two variables.
+
+Use the macro inside an if–else statement.
+
+Demonstrate that both variables reset only when the condition is true.
+
+
+
+🔹 Exercise 9 (Mixed Macro Usage)
+
+Write a program that simulates a simple grading system.
+
+Use:
+
+a numeric constant macro for pass mark
+
+a string macro for pass/fail messages
+
+an expression macro to calculate percentage
+
+Read marks from user input.
+
+Display whether the student passed or failed.
+
+
+
+🔹 Exercise 10 (Macro Design Exercise — Like 2.29)
+
+Write a program that reads three integers and displays the largest value.
+
+Constraints:
+
+You must use macros to compare values.
+
+No loops.
+
+Use only if statements.
+
+Your program must work correctly for all possible orderings of the three numbers.
